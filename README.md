@@ -72,3 +72,34 @@ def svm_function(x,y):
     
     return w, preds
 ```
+### let's see how it works
+
+```python
+print('Calculated weights')
+print(w)
+```
+```
+output:
+Calculated weights
+[ 1.62876617  3.23017165 11.37623851]
+```
+### And finally let's see our prediction
+```python
+print('predicted output')
+print(out)
+```
+```
+predicted output
+[-1, -1, 1, 1, 1]
+```
+### Accuracy
+Fortunately accuracy is 1.0
+```python
+print('accuracy:', accuracy_score(out, y))
+```
+```
+accuracy: 1.0
+```
+
+That's all
+---
