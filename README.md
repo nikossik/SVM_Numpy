@@ -1,5 +1,4 @@
-# SVM_Numpy
-SVM using Numpy
+# SVM using Numpy
 ---
 Support Vector Machine is used for finding an optimal hyperplane that maximizes margin between classes. SVM’s are most commonly used for classification problem. They can also be used for regression, outlier detection and clustering. SVM works great for a small data sets.
 
